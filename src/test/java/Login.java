@@ -136,6 +136,6 @@ public void user_can_see_Market_Value() throws Throwable {
 @Then("^user close browser$")
 public void user_close_browser() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
-   driver.close();
+   
 }
 }
