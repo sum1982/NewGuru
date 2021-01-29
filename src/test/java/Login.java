@@ -130,8 +130,7 @@ public void user_selects_transmission_and_engine() throws Throwable {
 public void user_can_see_Market_Value() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
  Assert.assertEquals("What's My Car Worth? Calculate Your Cars Value on CarGurus", driver.getTitle());
-        Thread.sleep(2000);
-        driver.close();
+        
 }
 @Then("^user close browser$")
 public void user_close_browser() throws Throwable {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="34" failures="0" name="RunCucumberTest" time="64.414" errors="2" skipped="0">
+<testsuite tests="34" failures="0" name="RunCucumberTest" time="66.735" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -70,68 +70,14 @@
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user clicks on Next button and enters \&quot;&lt;Password&gt;\&quot;" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user clicks on Sign in button" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user is on home page" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user clicks on Car Values" time="0"/>
+  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user clicks on Car Values" time="0.001"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user selects make model year and trim" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user clicks zip and enters \&quot;60133\&quot;" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user clicks mileage and enters mileage" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user selects transmission and engine" time="0"/>
+  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user selects transmission and engine" time="0.001"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user can see Market Value" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user close browser" time="0">
-    <error message="invalid session id
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;LAPTOP-CJ63G7LO&apos;, ip: &apos;10.0.0.80&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\kohli\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49269}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 97516b7e28ddf36d189cceb9de47a5d2" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;LAPTOP-CJ63G7LO&apos;, ip: &apos;10.0.0.80&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\kohli\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49269}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 97516b7e28ddf36d189cceb9de47a5d2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:435)
-	at Login.user_close_browser(Login.java:139)
-	at ✽.Then user close browser(CarValue.feature:17)
-</error>
-  </testcase>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="| kohli.sumeet@ymail.com | Test1234 | 60133 |" time="0">
-    <error message="invalid session id
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;LAPTOP-CJ63G7LO&apos;, ip: &apos;10.0.0.80&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\kohli\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49269}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 97516b7e28ddf36d189cceb9de47a5d2" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;LAPTOP-CJ63G7LO&apos;, ip: &apos;10.0.0.80&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\kohli\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49269}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 97516b7e28ddf36d189cceb9de47a5d2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:435)
-	at Login.user_close_browser(Login.java:139)
-	at ✽.Then user close browser(CarValue.feature:17)
-</error>
-  </testcase>
+  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user close browser" time="0"/>
+  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="| kohli.sumeet@ymail.com | Test1234 | 60133 |" time="0.004"/>
   <testcase classname="| 60133 |" name="Given user is already on Carguru" time="0"/>
   <testcase classname="| 60133 |" name="When user mouses over certified pre owned" time="0"/>
   <testcase classname="| 60133 |" name="Then user Clicks on Certified Pre-Owned" time="0"/>
@@ -139,7 +85,7 @@ Session ID: 97516b7e28ddf36d189cceb9de47a5d2
   <testcase classname="| 60133 |" name="Then user clicks and enters \&quot;60133\&quot;" time="0"/>
   <testcase classname="| 60133 |" name="And user clicks on Search" time="0"/>
   <testcase classname="| 60133 |" name="Then user can see Certified Pre-Owned cars" time="0"/>
-  <testcase classname="| 60133 |" name="| 60133 |" time="0"/>
+  <testcase classname="| 60133 |" name="| 60133 |" time="0.001"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Given Carguru is Home Page" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="When title of Home Page is Carguru" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user clicks on My account dropdown" time="0"/>
@@ -148,6 +94,6 @@ Session ID: 97516b7e28ddf36d189cceb9de47a5d2
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user clicks on Next button and enters \&quot;Test1234\&quot;" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user clicks on Sign in button" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user is on home page" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user close browser" time="0.001"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="| kohli.sumeet@ymail.com | Test1234 |" time="0.001"/>
+  <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user close browser" time="0"/>
+  <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="| kohli.sumeet@ymail.com | Test1234 |" time="0"/>
 </testsuite>
