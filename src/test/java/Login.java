@@ -68,12 +68,14 @@ public void user_clicks_on_Next_button_and_enters(String Password) throws Throwa
 public void user_clicks_on_Sign_in_button() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     driver.findElement(By.xpath("//button[contains(text(),'Sign in')]")).click();
+    Thread.sleep(2000);
 }
 
 @Then("^user is on home page$")
 public void user_is_on_home_page() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
   driver.get(baseUrl);
+  
 }
 
 @Then("^user clicks on Car Values$")
