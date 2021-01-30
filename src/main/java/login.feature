@@ -12,6 +12,5 @@ Then user close browser
 
 Examples:
 | email | Password |
-| kohli.sumeet@ymail.com | esty1234 |
 | kohli.sumeet@ymail.com | Test1234 |
 
