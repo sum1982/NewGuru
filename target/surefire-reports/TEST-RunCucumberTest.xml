@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="51" failures="0" name="RunCucumberTest" time="84.321" errors="0" skipped="9">
+<testsuite tests="44" failures="0" name="RunCucumberTest" time="101.983" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -14,6 +14,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="RunCucumberTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\kohli\OneDrive\Documents\NetBeansProjects\NewCucumber"/>
     <property name="java.runtime.version" value="1.8.0_191-b12"/>
@@ -44,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=RunCucumberTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,58 +62,33 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Given Carguru is Home Page" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="When title of Home Page is Carguru" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user clicks on My account dropdown" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user clicks on Sign in\/Ragister button" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="And user enters \&quot;kohli.sumeet@ymail.com\&quot;" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user clicks on Next button and enters \&quot;&lt;Password&gt;\&quot;" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user clicks on Sign in button" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user is on home page" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user clicks on Car Values" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user selects make model year and trim" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user clicks zip and enters \&quot;60133\&quot;" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user clicks mileage and enters mileage" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user selects transmission and engine" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user can see Market Value" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="Then user close browser" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 | 60133 |" name="| kohli.sumeet@ymail.com | Test1234 | 60133 |" time="0"/>
+  <testcase classname="| 60133 |" name="Given Carguru is Home Page" time="0.001"/>
+  <testcase classname="| 60133 |" name="When title of Home Page is Carguru" time="0"/>
+  <testcase classname="| 60133 |" name="Then user clicks on Car Values" time="0"/>
+  <testcase classname="| 60133 |" name="Then user selects make model year and trim" time="0"/>
+  <testcase classname="| 60133 |" name="Then user clicks zip and enters \&quot;60133\&quot;" time="0"/>
+  <testcase classname="| 60133 |" name="Then user clicks mileage and enters mileage" time="0"/>
+  <testcase classname="| 60133 |" name="Then user selects transmission and engine" time="0"/>
+  <testcase classname="| 60133 |" name="Then user can see Market Value" time="0"/>
+  <testcase classname="| 60133 |" name="Then user close browser" time="0"/>
+  <testcase classname="| 60133 |" name="| 60133 |" time="0.001"/>
   <testcase classname="| 60133 |" name="Given user is already on Carguru" time="0"/>
   <testcase classname="| 60133 |" name="When user mouses over certified pre owned" time="0"/>
   <testcase classname="| 60133 |" name="Then user Clicks on Certified Pre-Owned" time="0"/>
-  <testcase classname="| 60133 |" name="Then user selects make and model" time="0"/>
+  <testcase classname="| 60133 |" name="Then user selects make and model" time="0.001"/>
   <testcase classname="| 60133 |" name="Then user clicks and enters \&quot;60133\&quot;" time="0"/>
   <testcase classname="| 60133 |" name="And user clicks on Search" time="0"/>
   <testcase classname="| 60133 |" name="Then user can see Certified Pre-Owned cars" time="0"/>
+  <testcase classname="| 60133 |" name="| 60133 |" time="0"/>
+  <testcase classname="| 60133 |" name="Given user is on Carguru site" time="0"/>
+  <testcase classname="| 60133 |" name="When user hover over Research button" time="0"/>
+  <testcase classname="| 60133 |" name="Then user clicks on Research button" time="0"/>
+  <testcase classname="| 60133 |" name="Then user selects make model and year" time="0"/>
+  <testcase classname="| 60133 |" name="Then user clicks search" time="0"/>
+  <testcase classname="| 60133 |" name="Then user clicks zipcode and enters \&quot;60133\&quot;" time="0"/>
+  <testcase classname="| 60133 |" name="Then user clicks Find Deals" time="0"/>
+  <testcase classname="| 60133 |" name="Then user can see Research results" time="0"/>
   <testcase classname="| 60133 |" name="| 60133 |" time="0.001"/>
-  <testcase classname="| 60133 |" name="Given user is on Carguru site" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 60133 |" name="When user hover over Research button" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 60133 |" name="Then user clicks on Research button" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 60133 |" name="Then user selects make model and year" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 60133 |" name="Then user clicks search" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 60133 |" name="Then user clicks zipcode and enters \&quot;60133\&quot;" time="0.003">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 60133 |" name="Then user clicks Find Deals" time="0.003">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 60133 |" name="Then user can see Research results" time="0.003">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 60133 |" name="| 60133 |" time="0.003">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 60133 |" name="| 60133 |" time="0.003"/>
   <testcase classname="| 60133 |" name="Given user is on Carguru" time="0"/>
   <testcase classname="| 60133 |" name="When title of Homepage is Carguru" time="0"/>
   <testcase classname="| 60133 |" name="Then user clicks on Sell My Car button" time="0"/>
@@ -123,7 +99,7 @@
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Given Carguru is Home Page" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="When title of Home Page is Carguru" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user clicks on My account dropdown" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user clicks on Sign in\/Ragister button" time="0.001"/>
+  <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user clicks on Sign in\/Ragister button" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="And user enters \&quot;kohli.sumeet@ymail.com\&quot;" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user clicks on Next button and enters \&quot;Test1234\&quot;" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user clicks on Sign in button" time="0"/>
