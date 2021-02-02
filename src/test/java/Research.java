@@ -44,7 +44,7 @@ public void user_hover_over_Research_button() throws Throwable {
 public void user_clicks_on_Research_button() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     WebDriverWait wait=new WebDriverWait(driver, 40);
-wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Research')]"))).click();
+wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"headerNav\"]/div/ul[1]/li[6]/a"))).click();
     
 }
 
