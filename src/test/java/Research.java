@@ -43,7 +43,7 @@ public void user_hover_over_Research_button() throws Throwable {
 @Then("^user clicks on Research button$")
 public void user_clicks_on_Research_button() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
-    WebDriverWait wait=new WebDriverWait(driver, 20);
+    WebDriverWait wait=new WebDriverWait(driver, 40);
 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Research')]"))).click();
     
 }
