@@ -25,8 +25,8 @@ public class Research {
     private static WebDriver driver;
     private String baseUrl="https://www.cargurus.com/"; 
     
-    @Given("^user is on Carguru site$")
-public void user_is_on_Carguru_site() throws Throwable {
+    @Given("^user is on Carguru webpage$")
+public void user_is_on_Carguru_webpage() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     System.setProperty("webdriver.chrome.driver", "c:\\data\\chromedriver.exe");
          driver = new ChromeDriver();

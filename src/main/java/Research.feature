@@ -1,6 +1,6 @@
 Feature: Researching for car
 Scenario Outline: user is able to Research for car Scenario
-Given user is on Carguru site
+Given user is on Carguru webpage
 When user hover over Research button
 Then user clicks on Research button
 Then user selects make model and year
