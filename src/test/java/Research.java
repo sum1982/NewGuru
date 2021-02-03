@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -45,13 +46,15 @@ public void user_clicks_on_Research_button() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
 //    WebDriverWait wait=new WebDriverWait(driver, 20);
 //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@id='menuUserLink']/span")));
-    driver.findElement(By.xpath("//a[contains(text(),'Research')]")).click();
+Actions act=new Actions(driver);
+act.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Research')]"))).click().build().perform();
+//    driver.findElement(By.xpath("//a[contains(text(),'Research')]")).click();
 }
 
 @Then("^user selects make model and year$")
 public void user_selects_make_model_and_year() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
-   Thread.sleep(10000);
+   Thread.sleep(3000);
      WebElement e = driver.findElement(By.id("researchTabCarSelector_entitySelectingHelper_selectedEntity_makerSelect"));
         Select make = new Select(e);
         make.selectByVisibleText("Honda");
