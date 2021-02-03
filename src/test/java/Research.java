@@ -43,15 +43,15 @@ public void user_hover_over_Research_button() throws Throwable {
 @Then("^user clicks on Research button$")
 public void user_clicks_on_Research_button() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
-    WebDriverWait wait=new WebDriverWait(driver, 20);
-wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Research')]"))).click();
-    
+//    WebDriverWait wait=new WebDriverWait(driver, 20);
+//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@id='menuUserLink']/span")));
+    driver.findElement(By.xpath("//a[contains(text(),'Research')]")).click();
 }
 
 @Then("^user selects make model and year$")
 public void user_selects_make_model_and_year() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
-   Thread.sleep(3000);
+   Thread.sleep(10000);
      WebElement e = driver.findElement(By.id("researchTabCarSelector_entitySelectingHelper_selectedEntity_makerSelect"));
         Select make = new Select(e);
         make.selectByVisibleText("Honda");
