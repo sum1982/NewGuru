@@ -1,6 +1,7 @@
 Feature: Customer can research cars
 Scenario Outline: user is able to Research for car Scenario
 Given user is on Cargurupage
+When user hover over Research button
 Then user clicks on Research button
 Then user selects make model and year
 Then user clicks search

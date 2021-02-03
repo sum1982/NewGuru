@@ -35,6 +35,11 @@ public void user_is_on_Cargurupage() throws Throwable {
          driver.manage().window().maximize();
 }
 
+@When("^user hover over Research button$")
+public void user_hover_over_Research_button() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   driver.findElement(By.xpath("//*[contains(@title,'Research')]"));
+}
 
 @Then("^user clicks on Research button$")
 public void user_clicks_on_Research_button() throws Throwable {
