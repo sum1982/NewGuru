@@ -46,9 +46,10 @@ public void user_clicks_on_Research_button() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
 //    WebDriverWait wait=new WebDriverWait(driver, 20);
 //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@id='menuUserLink']/span")));
-Actions act=new Actions(driver);
-act.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Research')]"))).click().build().perform();
+//Actions act=new Actions(driver);
+//act.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Research')]"))).click().build().perform();
 //    driver.findElement(By.xpath("//a[contains(text(),'Research')]")).click();
+new WebDriverWait(driver, 20).until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'Research')]"))).click();
 }
 
 @Then("^user selects make model and year$")
