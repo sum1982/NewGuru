@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="44" failures="0" name="RunCucumberTest" time="99.382" errors="0" skipped="0">
+<testsuite tests="44" failures="0" name="RunCucumberTest" time="99.907" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -78,7 +78,7 @@
   <testcase classname="| 60133 |" name="Then user clicks and enters \&quot;60133\&quot;" time="0"/>
   <testcase classname="| 60133 |" name="And user clicks on Search" time="0"/>
   <testcase classname="| 60133 |" name="Then user can see Certified Pre-Owned cars" time="0"/>
-  <testcase classname="| 60133 |" name="| 60133 |" time="0.001"/>
+  <testcase classname="| 60133 |" name="| 60133 |" time="0"/>
   <testcase classname="| 60133 |" name="Given user is on Cargurupage" time="0"/>
   <testcase classname="| 60133 |" name="When user hover over Research button" time="0"/>
   <testcase classname="| 60133 |" name="Then user clicks on Research button" time="0"/>
@@ -94,7 +94,7 @@
   <testcase classname="| 60133 |" name="Then user enters data \&quot;60133\&quot;" time="0"/>
   <testcase classname="| 60133 |" name="Then user selects maker model year and trim" time="0"/>
   <testcase classname="| 60133 |" name="Then user sees Results Page" time="0"/>
-  <testcase classname="| 60133 |" name="| 60133 |" time="0"/>
+  <testcase classname="| 60133 |" name="| 60133 |" time="0.001"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Given Carguru is Home Page" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="When title of Home Page is Carguru" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user clicks on My account dropdown" time="0"/>
@@ -104,5 +104,5 @@
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user clicks on Sign in button" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user is on home page" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user close browser" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="| kohli.sumeet@ymail.com | Test1234 |" time="0"/>
+  <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="| kohli.sumeet@ymail.com | Test1234 |" time="0.001"/>
 </testsuite>

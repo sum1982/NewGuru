@@ -49,7 +49,7 @@ public void user_clicks_on_Research_button() throws Throwable {
 //Actions act=new Actions(driver);
 //act.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Research')]"))).click().build().perform();
 //    driver.findElement(By.xpath("//a[contains(text(),'Research')]")).click();
-new WebDriverWait(driver, 20).until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(@title,'Research')]"))).click();
+new WebDriverWait(driver, 20).until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/nav/div/ul[1]/li[6]/a"))).click();
 }
 
 @Then("^user selects make model and year$")
