@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="44" failures="0" name="RunCucumberTest" time="96.127" errors="0" skipped="0">
+<testsuite tests="44" failures="0" name="RunCucumberTest" time="102.161" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -70,7 +70,7 @@
   <testcase classname="| 60133 |" name="Then user selects transmission and engine" time="0"/>
   <testcase classname="| 60133 |" name="Then user can see Market Value" time="0"/>
   <testcase classname="| 60133 |" name="Then user close browser" time="0"/>
-  <testcase classname="| 60133 |" name="| 60133 |" time="0.001"/>
+  <testcase classname="| 60133 |" name="| 60133 |" time="0"/>
   <testcase classname="| 60133 |" name="Given user is already on Carguru" time="0"/>
   <testcase classname="| 60133 |" name="When user mouses over certified pre owned" time="0"/>
   <testcase classname="| 60133 |" name="Then user Clicks on Certified Pre-Owned" time="0"/>
@@ -78,16 +78,16 @@
   <testcase classname="| 60133 |" name="Then user clicks and enters \&quot;60133\&quot;" time="0"/>
   <testcase classname="| 60133 |" name="And user clicks on Search" time="0"/>
   <testcase classname="| 60133 |" name="Then user can see Certified Pre-Owned cars" time="0"/>
-  <testcase classname="| 60133 |" name="| 60133 |" time="0.001"/>
+  <testcase classname="| 60133 |" name="| 60133 |" time="0"/>
   <testcase classname="| 60133 |" name="Given user is on Cargurupage" time="0"/>
   <testcase classname="| 60133 |" name="When user hover over Research button" time="0"/>
   <testcase classname="| 60133 |" name="Then user clicks on Research button" time="0"/>
-  <testcase classname="| 60133 |" name="Then user selects make model and year" time="0.001"/>
+  <testcase classname="| 60133 |" name="Then user selects make model and year" time="0"/>
   <testcase classname="| 60133 |" name="Then user clicks search" time="0"/>
   <testcase classname="| 60133 |" name="Then user clicks zipcode and enters \&quot;60133\&quot;" time="0"/>
   <testcase classname="| 60133 |" name="Then user clicks Find Deals" time="0"/>
   <testcase classname="| 60133 |" name="Then user can see Research results" time="0"/>
-  <testcase classname="| 60133 |" name="| 60133 |" time="0"/>
+  <testcase classname="| 60133 |" name="| 60133 |" time="0.001"/>
   <testcase classname="| 60133 |" name="Given user is on Carguru" time="0"/>
   <testcase classname="| 60133 |" name="When title of Homepage is Carguru" time="0"/>
   <testcase classname="| 60133 |" name="Then user clicks on Sell My Car button" time="0"/>
@@ -104,5 +104,5 @@
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user clicks on Sign in button" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user is on home page" time="0"/>
   <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="Then user close browser" time="0"/>
-  <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="| kohli.sumeet@ymail.com | Test1234 |" time="0"/>
+  <testcase classname="| kohli.sumeet@ymail.com | Test1234 |" name="| kohli.sumeet@ymail.com | Test1234 |" time="0.001"/>
 </testsuite>
