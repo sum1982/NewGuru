@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -30,6 +31,8 @@ public class Research {
 public void user_is_on_Cargurupage() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     System.setProperty("webdriver.chrome.driver", "c:\\data\\chromedriver.exe");
+    ChromeOptions chromeOptions = new ChromeOptions();
+ chromeOptions.addArguments("--headless");  
          driver = new ChromeDriver();
          driver.get(baseUrl);
          driver.manage().window().maximize();
